@@ -1,0 +1,9 @@
+RELAZIONE UNO A UNO : si mette fk in una sola delle due tabelle.
+RELAZIONE UNO A MOLTI: si mette la fk nel lato del molti.
+RELAZIONE MOLTI A MOLTI: si usa una terza tabella dove si mettono le due fk
+
+region 1 a molti countries
+countries 1 a molti locations
+locations 1 a molti departments
+departments 1 a molti job_history
+jobs 1 a molti job_history
